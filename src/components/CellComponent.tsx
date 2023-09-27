@@ -9,13 +9,8 @@ interface CellProps {
 const CellComponent: FC<CellProps>= ({cell}) => {
     return (
         <div className ={['cell', cell.color].join(' ')}>
-            {cell.figure !== null ? (
-                /* Render the figure if it's not null */
-                <>{cell.figure}</>
-            ) : (
-                /* Render some fallback content if cell.figure is null */
-                <div>No Figure</div>
-            )}
+            {cell.figure?.logo && <img src={cell.figure.logo} alt={''} />}
+
         </div>
     );
 };
