@@ -25,12 +25,29 @@
   align-items: center;
 }
 
+.cell img{
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+
 .black {
  background-color: #C07A46 ;
 }
 
 .white {
   background-color:#E1C196 ;
+}
+
+.selected {
+  background-color: brown;
+}
+
+.available {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #22c022;
 }
 
 
