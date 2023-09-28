@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+## Chess Game App
+This is a simple React-based chess game application. It allows you to play chess with two players and keeps track of lost figures for both white and black players.
+In this learning project, I set out to work with the OOP approach.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To run this application locally, follow these steps:
 
-### `yarn start`
+1. Clone the repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+   ```shell
+   git clone https://github.com/your-username/chess-game-app.git
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+2. Change to the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```shell
+    cd chess-game-app
 
-### `yarn build`
+3. Install the dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```shell
+    yarn install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Start the development server:
+     ```shell
+    yarn start
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The application will be available at http://localhost:3000 in your web browser.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Usage
+When you open the application, it will start a new chess game.
+The timer at the top of the screen shows the remaining time for the current player's turn.
+Click on a chess piece to select it, and then click on a valid square to make a move.
+The application will keep track of lost figures for both white and black players in the "Черные фигуры" (Black Figures) and "Белые фигуры" (White Figures) sections.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Features
+React-based chess game.
+Two-player mode.
+Timer to track each player's turn.
+Keeps track of lost figures for both players.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Technologies Used
+* React
+* TypeScript
+* CSS
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# What needs to be done?
+* Make the interface more attractive
+* Finalise the check-mate logic for King
